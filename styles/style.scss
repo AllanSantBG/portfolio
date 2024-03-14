@@ -1,0 +1,301 @@
+// Google Font Inter
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+// Paleta de Cores
+$preto: #0F0E17;
+$branco: #FFFFFE;
+$cinza: #878899;
+$laranja: #FF8906;
+
+// Margin, Padding, Gap
+$mpg: 1.5rem;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+// Tamanho do Texto
+:root {
+    --textsizefooter: 1rem;
+    --textsize1: 1.5rem;
+    --textsize2: 3rem;
+    --textsize3: 4.5rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: $preto;
+    font-family: "Inter", sans-serif;
+}
+
+main {
+    #home-page {
+        padding: $mpg;
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $branco;
+            gap: $mpg;
+            min-height: 100vh;
+            .info {
+                width: 70%;
+                h1 {
+                    margin-bottom: $mpg;
+                    font-size: var(--textsize3);
+                    span {
+                        color: $laranja;
+                    }
+                }
+                h2 {
+                    margin-bottom: $mpg;
+                    font-size: var(--textsize2);
+                }
+                p {
+                    margin-bottom: $mpg;
+                    font-size: var(--textsize1);
+                    line-height: 1.4em;
+                    color: $cinza;
+                }
+            }
+            .frame {
+                width: 500px;
+                height: 700px;
+                border-radius: 20px;
+                background-image: url("https://images.unsplash.com/photo-1710104434504-0261d06fa832?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+                background-size: cover;
+                background-position: center;
+                background-color: $branco;
+            }
+            .button-group {
+                display: flex;
+                align-items: center;
+                gap: $mpg;
+                flex-wrap: wrap;
+                a button {
+                    cursor: pointer;
+                    font-weight: bold;
+                    font-size: var(--textsize1);
+                    border-radius: 20px;
+                    padding: 1em;
+                    border: none;
+                    transition: 0.25s;
+                }
+                a {
+                    width: 100%;
+                    button.first-button {
+                        background-color: $laranja;
+                        color: $branco;
+                        width: 50%;
+                        &:hover {
+                            background-color: $branco;
+                            color: $laranja;
+                        }
+                    }
+                }
+                .social-media-group {
+                    width: 50%;
+                    display: flex;
+                    gap: $mpg;
+                    a button {
+                        border: 2px solid $branco;
+                        background-color: transparent;
+                        color: $branco;
+                        width: 100%;
+                        &:hover {
+                            background-color: $branco;
+                            color: $preto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #skills {
+        background-color: $branco;
+        padding: $mpg;
+        .title {
+            color: $preto;
+            text-align: center;
+            h1 {
+                margin-bottom: $mpg;
+                font-size: var(--textsize2);
+            }
+            h2 {
+                margin-bottom: $mpg;
+                font-size: var(--textsize1);
+                opacity: 0.8;
+            }
+        }
+        .card-group {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: $mpg;
+            .card {
+                text-align: center;
+                color: $branco;
+                background-color: $preto;
+                border-radius: 20px;
+                width: 100%;
+                height: 70vh;
+                .icon {
+                    display: grid;
+                    place-items: center;
+                    height: 20%;
+                    margin-top: $mpg;
+                    i {
+                        padding: 1rem;
+                        color: $preto;
+                        font-size: var(--textsize3);
+                        background-color: $laranja;
+                        border-radius: 50%;
+                    }
+                }
+                h1 {
+                    display: grid;
+                    place-items: center;
+                    height: 20%;
+                    font-size: var(--textsize2);
+                }
+                p {
+                    margin-bottom: $mpg;
+                    font-size: var(--textsize1);
+                    color: $cinza;
+                }
+            }
+        }
+    }
+    #projects {
+        padding: $mpg;
+        .title {
+            color: $branco;
+            text-align: center;
+            h1 {
+                margin-bottom: $mpg;
+                font-size: var(--textsize2);
+            }
+            h2 {
+                margin-bottom: $mpg;
+                font-size: var(--textsize1);
+                opacity: 0.8;
+            }
+        }
+        .card-group {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: $mpg;
+            .card {
+                color: $preto;
+                background-color: $branco;
+                border-radius: 20px;
+                width: 100%;
+                .frame {
+                    width: 100%;
+                    height: 300px;
+                    background-color: $cinza;
+                    border-top-left-radius: 20px;
+                    border-top-right-radius: 20px;
+                    background-image: url("https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+                    background-position: center;
+                    background-size: cover;
+                }
+                .info {
+                    margin: $mpg;
+                    h1 {
+                        font-size: var(--textsize1);
+                        margin-bottom: $mpg;
+                        color: $preto;
+                    }
+                    p {
+                        font-size: var(--textsize1);
+                        margin-bottom: $mpg;
+                        color: $cinza;
+                    }
+                    .button-group {
+                        display: flex;
+                        gap: $mpg;
+                        a {
+                            width: 100%;
+                            button {
+                                cursor: pointer;
+                                font-size: var(--textsize1);
+                                padding: $mpg;
+                                border-radius: 20px;
+                                width: 100%;
+                                font-weight: bold;
+                                transition: 0.25s;
+                            }
+                            .first-button {
+                                background-color: $laranja;
+                                border: 2px solid $laranja;
+                                color: $branco;
+                                &:hover {
+                                    color: $laranja;
+                                    background-color: $branco;
+                                }
+                            }
+                            .second-button {
+                                background-color: transparent;
+                                border: 2px solid $cinza;
+                                color: $preto;
+                                &:hover {
+                                    color: $branco;
+                                    background-color: $preto;
+                                    border: 2px solid $preto;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    :root {
+        --textsize1: 0.5rem;
+        --textsize1: 1rem;
+        --textsize2: 1.5rem;
+        --textsize3: 2rem;
+    }
+
+    main {
+        #home-page {
+            .container {
+                flex-direction: column-reverse;
+                .info {
+                    width: 100%;
+                    height: 50%;
+                    
+                }
+                .frame {
+                    width: 100%;
+                    height: 500px;
+                }
+                .button-group a button.first-button,
+                .button-group .social-media-group {
+                    width: 100%;
+                }
+            }
+        }
+        #skills {
+            .card-group {
+                flex-direction: column;
+            }
+        }
+        #projects {
+            .card-group {
+                flex-direction: column;
+            }
+        }
+    }
+}

@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --textsizefooter: 1rem;
+  --textsize1: 1.5rem;
+  --textsize2: 3rem;
+  --textsize3: 4.5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0F0E17;
+  font-family: "Inter", sans-serif;
+}
+
+main #home-page {
+  padding: 1.5rem;
+}
+main #home-page .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFE;
+  gap: 1.5rem;
+  min-height: 100vh;
+}
+main #home-page .container .info {
+  width: 70%;
+}
+main #home-page .container .info h1 {
+  margin-bottom: 1.5rem;
+  font-size: var(--textsize3);
+}
+main #home-page .container .info h1 span {
+  color: #FF8906;
+}
+main #home-page .container .info h2 {
+  margin-bottom: 1.5rem;
+  font-size: var(--textsize2);
+}
+main #home-page .container .info p {
+  margin-bottom: 1.5rem;
+  font-size: var(--textsize1);
+  line-height: 1.4em;
+  color: #878899;
+}
+main #home-page .container .frame {
+  width: 500px;
+  height: 700px;
+  border-radius: 20px;
+  background-image: url("https://images.unsplash.com/photo-1710104434504-0261d06fa832?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  background-color: #FFFFFE;
+}
+main #home-page .container .button-group {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+main #home-page .container .button-group a button {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: var(--textsize1);
+  border-radius: 20px;
+  padding: 1em;
+  border: none;
+  transition: 0.25s;
+}
+main #home-page .container .button-group a {
+  width: 100%;
+}
+main #home-page .container .button-group a button.first-button {
+  background-color: #FF8906;
+  color: #FFFFFE;
+  width: 50%;
+}
+main #home-page .container .button-group a button.first-button:hover {
+  background-color: #FFFFFE;
+  color: #FF8906;
+}
+main #home-page .container .button-group .social-media-group {
+  width: 50%;
+  display: flex;
+  gap: 1.5rem;
+}
+main #home-page .container .button-group .social-media-group a button {
+  border: 2px solid #FFFFFE;
+  background-color: transparent;
+  color: #FFFFFE;
+  width: 100%;
+}
+main #home-page .container .button-group .social-media-group a button:hover {
+  background-color: #FFFFFE;
+  color: #0F0E17;
+}
+main #skills {
+  background-color: #FFFFFE;
+  padding: 1.5rem;
+}
+main #skills .title {
+  color: #0F0E17;
+  text-align: center;
+}
+main #skills .title h1 {
+  margin-bottom: 1.5rem;
+  font-size: var(--textsize2);
+}
+main #skills .title h2 {
+  margin-bottom: 1.5rem;
+  font-size: var(--textsize1);
+  opacity: 0.8;
+}
+main #skills .card-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+main #skills .card-group .card {
+  text-align: center;
+  color: #FFFFFE;
+  background-color: #0F0E17;
+  border-radius: 20px;
+  width: 100%;
+  height: 70vh;
+}
+main #skills .card-group .card .icon {
+  display: grid;
+  place-items: center;
+  height: 20%;
+  margin-top: 1.5rem;
+}
+main #skills .card-group .card .icon i {
+  padding: 1rem;
+  color: #0F0E17;
+  font-size: var(--textsize3);
+  background-color: #FF8906;
+  border-radius: 50%;
+}
+main #skills .card-group .card h1 {
+  display: grid;
+  place-items: center;
+  height: 20%;
+  font-size: var(--textsize2);
+}
+main #skills .card-group .card p {
+  margin-bottom: 1.5rem;
+  font-size: var(--textsize1);
+  color: #878899;
+}
+main #projects {
+  padding: 1.5rem;
+}
+main #projects .title {
+  color: #FFFFFE;
+  text-align: center;
+}
+main #projects .title h1 {
+  margin-bottom: 1.5rem;
+  font-size: var(--textsize2);
+}
+main #projects .title h2 {
+  margin-bottom: 1.5rem;
+  font-size: var(--textsize1);
+  opacity: 0.8;
+}
+main #projects .card-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+main #projects .card-group .card {
+  color: #0F0E17;
+  background-color: #FFFFFE;
+  border-radius: 20px;
+  width: 100%;
+}
+main #projects .card-group .card .frame {
+  width: 100%;
+  height: 300px;
+  background-color: #878899;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-image: url("https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-size: cover;
+}
+main #projects .card-group .card .info {
+  margin: 1.5rem;
+}
+main #projects .card-group .card .info h1 {
+  font-size: var(--textsize1);
+  margin-bottom: 1.5rem;
+  color: #0F0E17;
+}
+main #projects .card-group .card .info p {
+  font-size: var(--textsize1);
+  margin-bottom: 1.5rem;
+  color: #878899;
+}
+main #projects .card-group .card .info .button-group {
+  display: flex;
+  gap: 1.5rem;
+}
+main #projects .card-group .card .info .button-group a {
+  width: 100%;
+}
+main #projects .card-group .card .info .button-group a button {
+  cursor: pointer;
+  font-size: var(--textsize1);
+  padding: 1.5rem;
+  border-radius: 20px;
+  width: 100%;
+  font-weight: bold;
+  transition: 0.25s;
+}
+main #projects .card-group .card .info .button-group a .first-button {
+  background-color: #FF8906;
+  border: 2px solid #FF8906;
+  color: #FFFFFE;
+}
+main #projects .card-group .card .info .button-group a .first-button:hover {
+  color: #FF8906;
+  background-color: #FFFFFE;
+}
+main #projects .card-group .card .info .button-group a .second-button {
+  background-color: transparent;
+  border: 2px solid #878899;
+  color: #0F0E17;
+}
+main #projects .card-group .card .info .button-group a .second-button:hover {
+  color: #FFFFFE;
+  background-color: #0F0E17;
+  border: 2px solid #0F0E17;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --textsize1: 0.5rem;
+    --textsize1: 1rem;
+    --textsize2: 1.5rem;
+    --textsize3: 2rem;
+  }
+  main #home-page .container {
+    flex-direction: column-reverse;
+  }
+  main #home-page .container .info {
+    width: 100%;
+    height: 50%;
+  }
+  main #home-page .container .frame {
+    width: 100%;
+    height: 500px;
+  }
+  main #home-page .container .button-group a button.first-button,
+  main #home-page .container .button-group .social-media-group {
+    width: 100%;
+  }
+  main #skills .card-group {
+    flex-direction: column;
+  }
+  main #projects .card-group {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */
