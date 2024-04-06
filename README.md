@@ -1,8 +1,24 @@
-# React + Vite
+# Bem-vindo ao Meu Portfólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Olá! Meu nome é Helleson Allan e sou um desenvolvedor apaixonado por criar experiências digitais impactantes. Este repositório é a casa do meu portfólio pessoal, onde compartilho projetos, ideias e tudo o que estou aprendendo sobre tecnologias novas.
 
-Currently, two official plugins are available:
+## Sobre Mim
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Busco sempre aprimorar minhas habilidades e expandir meu conhecimento. Estou disposto a enfrentar desafios e resolver problemas complexos com soluções criativas e eficientes.
+
+## Habilidades
+
+- **Linguagens de Programação**: Python, HTML, CSS, JavaScript, Kotlin
+- **Frameworks e Bibliotecas**: React, Node.js, Ionic, Angular, Sass, Tailwind, Bootstrap
+- **Ferramentas**: Git, GitHub, VS Code, Android Studio
+- **Design**: Canva, Figma, GIMP
+- **Outros**: Node.js, APIs
+
+## Entre em Contato
+
+Se você gostaria de discutir um projeto ou simplesmente dizer olá, pode me enviar mensagem pelos meu contatos:
+
+- **Email**: hellesonallan20@gmail.com
+- **Nº de Telefone**: (81) 99694-9694
+
+Obrigado por visitar o repositorio do meu portfólio!
