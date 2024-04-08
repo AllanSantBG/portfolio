@@ -8,7 +8,7 @@ export default function Button({
     <>
       <a
         href={link}
-        className={`font-semibold flex gap-2 uppercase text-center justify-center items-center hover:opacity-80 hover:rounded-3xl xl:text-xl transition-all p-4 ${className}`}
+        className={`font-semibold text-sm lg:text-xl flex gap-2 uppercase text-center justify-center items-center hover:rounded-3xl xl:text-xl transition-all p-4 ${className}`}
       >
         {IconParam && <IconParam />}
         {text}
