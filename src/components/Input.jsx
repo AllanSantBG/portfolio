@@ -1,4 +1,10 @@
-export default function Input({ type, idAndName, placeHolder }) {
+export default function Input({
+  type,
+  idAndName,
+  placeHolder,
+  required,
+  autoComplete = "on",
+}) {
   return (
     <>
       <input
@@ -6,7 +12,9 @@ export default function Input({ type, idAndName, placeHolder }) {
         name={idAndName}
         id={idAndName}
         placeholder={placeHolder}
-        className="bg-darkGray p-2 w-full focus:outline focus:outline-1 focus:outline-white"
+        className="bg-darkGray p-4 w-full focus:outline focus:outline-1 focus:outline-white"
+        required={required}
+        autoComplete={autoComplete}
       />
     </>
   )

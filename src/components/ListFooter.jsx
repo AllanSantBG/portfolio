@@ -1,7 +1,7 @@
-export default function ListFooter({ title, list }) {
-  const listItems = list.map((item, index) => (
+export default function ListFooter({ title, textList, linkList = [] }) {
+  const listItems = textList.map((item, index) => (
     <li key={index}>
-      <a href="#" className="hover:opacity-80">
+      <a href={linkList[index]} className="hover:opacity-80">
         {item}
       </a>
     </li>
